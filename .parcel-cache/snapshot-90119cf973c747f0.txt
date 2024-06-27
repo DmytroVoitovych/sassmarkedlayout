@@ -1,4 +1,4 @@
-8662
+8700
 75C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\transformer-js\lib133605902590997212 1
 52C:\Users\Dima\Desktop\homework\sass\node_modules\ajv133618040524356414 1
 77C:\Users\Dima\Desktop\homework\sass\node_modules\css-tree\cjs\syntax\function133605902565415153 1
@@ -300,7 +300,7 @@
 66C:\Users\Dima\Desktop\homework\sass\node_modules\commander\typings133605902602441513 1
 66C:\Users\Dima\Desktop\homework\sass\src\scss\layouts\_chronic.scss133637968699008252 0
 46C:\Users\Dima\Desktop\homework\sass\.gitignore133605909743464973 0
-40C:\Users\Dima\Desktop\homework\sass\dist133639867236180686 1
+40C:\Users\Dima\Desktop\homework\sass\dist133639867443203607 1
 89C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\_\_class_private_field_init133605902569717001 1
 71C:\Users\Dima\Desktop\homework\sass\node_modules\css-tree\cjs\index.cjs133605902563443588 0
 64C:\Users\Dima\Desktop\homework\sass\node_modules\source-map\dist133605902561678744 1
@@ -523,7 +523,7 @@
 106C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\syntax\node\Parentheses.js133605902615577437 0
 105C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\syntax\node\Combinator.js133605902612700565 0
 96C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\max-nesting-depth\index.mjs133618040538518893 0
-63C:\Users\Dima\Desktop\homework\sass\src\assets\imgs\chronickimg133630035684536852 1
+63C:\Users\Dima\Desktop\homework\sass\src\assets\imgs\chronickimg133639869418499573 1
 70C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\utils\LICENSE133605902604487044 0
 87C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\core\test\fixtures\main-global133605902619336513 1
 116C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\declaration-property-value-no-unknown\index.mjs133618040537564098 0
@@ -600,7 +600,6 @@
 97C:\Users\Dima\Desktop\homework\sass\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\LICENSE133605902569546691 0
 88C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\transformer-babel\lib\config.js133605902591117518 0
 88C:\Users\Dima\Desktop\homework\sass\node_modules\uri-js\dist\esnext\schemes\https.js.map133618040498480826 0
-78C:\Users\Dima\Desktop\homework\sass\src\assets\imgs\chronickimg\Image2.1x.webp133630031310616404 0
 67C:\Users\Dima\Desktop\homework\sass\src\assets\imgs\motivdecor2.svg133619102560141340 0
 55C:\Users\Dima\Desktop\homework\sass\node_modules\ignore133618040492706793 1
 76C:\Users\Dima\Desktop\homework\sass\node_modules\regenerator-runtime\LICENSE133605902564558132 0
@@ -853,6 +852,7 @@
 88C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\features\dommatrix.js133605902570208281 0
 59C:\Users\Dima\Desktop\homework\sass\node_modules\domhandler133605902559553180 1
 78C:\Users\Dima\Desktop\homework\sass\node_modules\msgpackr-extract\package.json133605902563558810 0
+66C:\Users\Dima\Desktop\homework\sass\dist\avatarImage5.021b1bc8.jpg133639867440908799 0
 68C:\Users\Dima\Desktop\homework\sass\node_modules\type-fest\base.d.ts133605902559342563 0
 57C:\Users\Dima\Desktop\homework\sass\node_modules\boolbase133605902558384837 1
 79C:\Users\Dima\Desktop\homework\sass\node_modules\uri-js\dist\es5\uri.all.min.js133618040495367652 0
@@ -1545,6 +1545,7 @@
 76C:\Users\Dima\Desktop\homework\sass\node_modules\util-deprecate\package.json133618040475806400 0
 102C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint-scss\src\rules\at-function-pattern\index.js133618040502080155 0
 89C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint-scss\src\utils\sassValueParser133618040514936383 1
+66C:\Users\Dima\Desktop\homework\sass\dist\avatarImage3.9ce7211f.jpg133639867436536890 0
 60C:\Users\Dima\Desktop\homework\sass\node_modules\uri-js\dist133618040493648119 1
 86C:\Users\Dima\Desktop\homework\sass\node_modules\table\dist\src\makeTableConfig.js.map133618040506534365 0
 65C:\Users\Dima\Desktop\homework\sass\node_modules\uri-js\yarn.lock133618040498153634 0
@@ -1597,6 +1598,7 @@
 105C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\keyframe-selector-notation\index.mjs133618040538394442 0
 83C:\Users\Dima\Desktop\homework\sass\node_modules\cosmiconfig\dist\getDirectory.d.ts133605902563157763 0
 100C:\Users\Dima\Desktop\homework\sass\node_modules\posthtml\node_modules\posthtml-parser\dist\index.js133605902609477692 0
+63C:\Users\Dima\Desktop\homework\sass\dist\index.ea804213.css.map133639867443193583 0
 121C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\convertTransform.js133605902613608005 0
 84C:\Users\Dima\Desktop\homework\sass\node_modules\uri-js\dist\esnext\schemes\https.js133618040485210943 0
 95C:\Users\Dima\Desktop\homework\sass\node_modules\htmlnano\lib\modules\removeEmptyAttributes.cjs133605902568924929 0
@@ -2408,6 +2410,7 @@
 88C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\_\_assert_this_initialized133605902569165594 1
 79C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\cjs\_to_array.cjs133605902566277254 0
 86C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\transformer-svg\lib\inline.js133605902587962063 0
+65C:\Users\Dima\Desktop\homework\sass\dist\motivdecor3.167bab6b.svg133639867437251996 0
 94C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\formatters\verboseFormatter.mjs133618040551178258 0
 90C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint-scss\src\rules\at-mixin-pattern133618040506381267 1
 84C:\Users\Dima\Desktop\homework\sass\node_modules\css-tree\cjs\syntax\node\Number.cjs133605902564197294 0
@@ -2485,6 +2488,7 @@
 108C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint-scss\src\rules\no-unused-private-members\index.js133618040514297323 0
 112C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint-scss\src\rules\no-duplicate-dollar-variables\index.js133618040513930950 0
 82C:\Users\Dima\Desktop\homework\sass\node_modules\css-tree\cjs\syntax\node\Hash.cjs133605902563137743 0
+61C:\Users\Dima\Desktop\homework\sass\dist\image1x.ffd08013.jpg133639867440908799 0
 70C:\Users\Dima\Desktop\homework\sass\node_modules\has-flag\package.json133605902558089311 0
 84C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\lintPostcssResult.mjs133618040544774043 0
 76C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\transformer-postcss133605902593364660 1
@@ -2598,6 +2602,7 @@
 92C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\node_modules\resolve-from\license133618040486068775 0
 86C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\features\streams.js133605902578336682 0
 99C:\Users\Dima\Desktop\homework\sass\node_modules\ajv\dist\vocabularies\validation\multipleOf.js.map133618040521011800 0
+64C:\Users\Dima\Desktop\homework\sass\dist\image1.2x.d141e89f.webp133639867433319924 0
 78C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\index.mjs133618040538254415 0
 79C:\Users\Dima\Desktop\homework\sass\node_modules\node-addon-api\tools\README.md133605902563117577 0
 97C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\lightness-notation\index.cjs133618040516916571 0
@@ -3104,6 +3109,7 @@
 87C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\features\minmaxwh.js133605902575018424 0
 111C:\Users\Dima\Desktop\homework\sass\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\010-introduction.md133605902578136042 0
 117C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\declaration-block-no-duplicate-custom-properties133618040537012529 1
+67C:\Users\Dima\Desktop\homework\sass\dist\motivdecorimg.9f9fcb74.jpg133639867436536890 0
 102C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\custom-property-empty-line-before133618040536892392 1
 114C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Comment.js133605902611396929 0
 84C:\Users\Dima\Desktop\homework\sass\node_modules\stylelint\lib\rules\selector-max-id133618040540207787 1
@@ -4015,6 +4021,7 @@
 70C:\Users\Dima\Desktop\homework\sass\node_modules\postcss\lib\parser.js133618040497603866 0
 73C:\Users\Dima\Desktop\homework\sass\node_modules\postcss\lib\postcss.d.ts133618040504042713 0
 75C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\graph\src\index.js133605902594267359 0
+66C:\Users\Dima\Desktop\homework\sass\dist\chronikdecor.86ef1aad.jpg133639867435571781 0
 74C:\Users\Dima\Desktop\homework\sass\node_modules\lines-and-columns\LICENSE133605902558099292 0
 71C:\Users\Dima\Desktop\homework\sass\node_modules\postcss\lib\postcss.js133618040498056081 0
 91C:\Users\Dima\Desktop\homework\sass\node_modules\ajv\dist\refs\json-schema-2020-12\index.js133618040503442025 0
@@ -5125,6 +5132,7 @@
 113C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133605902607642586 0
 73C:\Users\Dima\Desktop\homework\sass\node_modules\detect-libc\package.json133605902565540508 0
 68C:\Users\Dima\Desktop\homework\sass\node_modules\fast-deep-equal\es6133618040494140740 1
+68C:\Users\Dima\Desktop\homework\sass\dist\officetable1x.8a015e18.webp133639867433299921 0
 75C:\Users\Dima\Desktop\homework\sass\node_modules\fast-deep-equal\react.d.ts133618040494961066 0
 73C:\Users\Dima\Desktop\homework\sass\node_modules\fast-deep-equal\react.js133618040488262699 0
 76C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\plugin\package.json133605902587450288 0
@@ -5343,6 +5351,7 @@
 104C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\tokenizer\TokenStream.js133605902616279727 0
 91C:\Users\Dima\Desktop\homework\sass\node_modules\css-tree\lib\definition-syntax\generate.js133605902566934089 0
 98C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\tokenizer\types.js133605902616324840 0
+61C:\Users\Dima\Desktop\homework\sass\dist\image1x.f4ab6d13.jpg133639867440908799 0
 98C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\tokenizer\utils.js133605902616460236 0
 93C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\lib\syntax\atrule133605902616114408 1
 67C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\LICENSE133605902559001573 0
@@ -5496,6 +5505,7 @@
 90C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\features\css3-colors.js133605902569185621 0
 100C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\cjs\convertor\create.cjs133605902607852929 0
 104C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\cjs\lexer\prepare-tokens.cjs133605902611156590 0
+78C:\Users\Dima\Desktop\homework\sass\src\assets\imgs\chronickimg\image2.1x.webp133630031310616404 0
 95C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\cjs\lexer\trace.cjs133605902611738103 0
 113C:\Users\Dima\Desktop\homework\sass\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\SyntaxError.cjs133605902611537372 0
 103C:\Users\Dima\Desktop\homework\sass\node_modules\ajv\dist\refs\json-schema-2020-12\meta\validation.json133618040515572180 0
@@ -6014,6 +6024,7 @@
 82C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\general.js.map133605902562917087 0
 78C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\index.d.ts133605902563939882 0
 82C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\index.d.ts.map133605902562977363 0
+64C:\Users\Dima\Desktop\homework\sass\dist\image1.1x.1e58ff8a.webp133639867433909933 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\index.js.map133605902563117577 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\package.json133605902561889196 0
 79C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\sort.js.map133605902563443588 0
@@ -6028,6 +6039,7 @@
 95C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\pseudo-selectors\index.d.ts133605902563949854 0
 123C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\addClassesToSVGElement.js133605902612841121 0
 93C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\pseudo-selectors\index.js133605902561047184 0
+69C:\Users\Dima\Desktop\homework\sass\dist\exploredecorimg.dab7c548.jpg133639867440908799 0
 97C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\pseudo-selectors\index.js.map133605902563137743 0
 97C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.d.ts133605902564014907 0
 95C:\Users\Dima\Desktop\homework\sass\node_modules\css-select\lib\esm\pseudo-selectors\pseudos.js133605902561332809 0
@@ -6387,6 +6399,7 @@
 88C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\src\_wrap_native_super.mjs133605902573196364 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\runtime-js\package.json133605902599268057 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\regions\US.js133605902579594168 0
+59C:\Users\Dima\Desktop\homework\sass\dist\index.ea804213.css133639867443133598 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\regions\UY.js133605902579669295 0
 80C:\Users\Dima\Desktop\homework\sass\node_modules\caniuse-lite\data\regions\VC.js133605902579734458 0
 92C:\Users\Dima\Desktop\homework\sass\node_modules\ajv\dist\vocabularies\applicator\anyOf.d.ts133618040525052448 0
@@ -7457,6 +7470,7 @@
 101C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\esm\_class_private_field_destructure.js133605902567289955 0
 85C:\Users\Dima\Desktop\homework\sass\node_modules\@parcel\bundler-default\package.json133605902607136293 0
 93C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\esm\_class_private_field_get.js133605902567299939 0
+65C:\Users\Dima\Desktop\homework\sass\dist\avatarImage.ab73e890.jpg133639867435571781 0
 94C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\esm\_class_private_method_get.js133605902567420355 0
 95C:\Users\Dima\Desktop\homework\sass\node_modules\@swc\helpers\esm\_class_private_method_init.js133605902567440483 0
 78C:\Users\Dima\Desktop\homework\sass\node_modules\@lmdb\lmdb-win32-x64\index.js133605902565530442 0
@@ -8661,3 +8675,27 @@
 61C:\Users\Dima\Desktop\homework\sass\dist\image1x.01bbecfa.jpg133639867235970673 0
 61C:\Users\Dima\Desktop\homework\sass\dist\image1x.8219535b.jpg133639867236060665 0
 65C:\Users\Dima\Desktop\homework\sass\dist\motivdecor3.29992471.svg133639867236150704 0
+73C:\Users\Dima\Desktop\homework\sass\dist\GeneralSans-Regular.59789f03.otf133639867433299921 0
+62C:\Users\Dima\Desktop\homework\sass\dist\image2x.40741874.webp133639867433309901 0
+62C:\Users\Dima\Desktop\homework\sass\dist\image2x.3f72b134.webp133639867433319924 0
+62C:\Users\Dima\Desktop\homework\sass\dist\image1x.6b39fd68.webp133639867433889968 0
+64C:\Users\Dima\Desktop\homework\sass\dist\image2.2x.ec8286a9.webp133639867433909933 0
+74C:\Users\Dima\Desktop\homework\sass\dist\GeneralSans-Semibold.cf6be9d0.otf133639867433919921 0
+62C:\Users\Dima\Desktop\homework\sass\dist\image1x.2df232d5.webp133639867433929923 0
+66C:\Users\Dima\Desktop\homework\sass\dist\avatarImage4.a326b638.jpg133639867435571781 0
+71C:\Users\Dima\Desktop\homework\sass\dist\motivdecorimgdesk.9f34cce2.jpg133639867435571781 0
+70C:\Users\Dima\Desktop\homework\sass\dist\statisticimgdesk.b408e838.jpg133639867436536890 0
+73C:\Users\Dima\Desktop\homework\sass\dist\virtualdecorimgdesc.6dc5878d.jpg133639867436536890 0
+63C:\Users\Dima\Desktop\homework\sass\dist\seizedesc.a67b2d95.jpg133639867436546876 0
+69C:\Users\Dima\Desktop\homework\sass\dist\CaretCircleDown.3a028b6c.svg133639867437251996 0
+70C:\Users\Dima\Desktop\homework\sass\dist\iconChevronRight.0059a717.svg133639867439227327 0
+65C:\Users\Dima\Desktop\homework\sass\dist\motivdecor2.08f3f0b2.svg133639867439237323 0
+60C:\Users\Dima\Desktop\homework\sass\dist\sprite.83c3e24a.svg133639867439237323 0
+66C:\Users\Dima\Desktop\homework\sass\dist\avatarImage2.480e4205.jpg133639867440908799 0
+59C:\Users\Dima\Desktop\homework\sass\dist\seize.3adbd81c.jpg133639867440908799 0
+65C:\Users\Dima\Desktop\homework\sass\dist\chronikdesc.f797a231.jpg133639867440908799 0
+64C:\Users\Dima\Desktop\homework\sass\dist\image2.1x.248c5902.webp133639867440918858 0
+87C:\Users\Dima\Desktop\homework\sass\dist\Neue-Regrade-Bold-BF65af35d84e111.78d33768.otf133639867440918858 0
+68C:\Users\Dima\Desktop\homework\sass\dist\officetable2x.5d40013b.webp133639867440918858 0
+63C:\Users\Dima\Desktop\homework\sass\dist\headdecor.d6d71aca.svg133639867442202536 0
+65C:\Users\Dima\Desktop\homework\sass\dist\motivdecor1.ce92a0ac.svg133639867442212535 0
