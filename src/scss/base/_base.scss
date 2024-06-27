@@ -1,0 +1,61 @@
+@use '../abstracts' as *;
+@use "sass:map";
+
+html{
+font-family: Roboto, sans-serif;
+scroll-padding-top: 4rem;
+}
+
+body {
+    background-color: $main-bg-color;
+    color: $main-content-color;
+    font-family: $main-content-style;
+    font-style: normal;
+    padding: 0 20px;
+    margin: 0 auto;
+    
+    @include mq(small){
+     max-width: map.get($breakpoints, 'small' );
+     
+    }
+
+        @include mq(medium) {
+        max-width: map.get($breakpoints, 'medium');
+    
+        }
+
+        @include mq(large) {
+            max-width: 1312px;
+           
+        }
+
+
+}
+
+h1,h2,h3,h4,h5,h6{
+font-family: $main-title-style;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.blackBtn {
+padding: $mobile-btn-padding;
+border-radius: 42px;
+border: solid 1px $aditional-bg-color;
+background-color: $aditional-bg-color;
+font-size: 14px;
+font-weight: 600;
+color: $aditional-content-color;
+line-height: 1.5;
+}
+
+.whiteBtn {
+padding: $mobile-btn-padding;
+border-radius: 42px;
+border: solid 1px $main-bg-color;
+background-color: $main-bg-color;
+font-size: 14px;
+font-weight: 600;
+color: $main-content-color;
+line-height: 1.5;
+}

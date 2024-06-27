@@ -1,0 +1,180 @@
+@use '../abstracts/' as *;
+
+.chronick{
+text-align: center;    
+padding-bottom: 96px;
+
+@include mq(large) {
+    padding-bottom: 176px;
+    }
+
+&__caption{
+font-size: 12px;
+font-family: $aditional-title-style; 
+text-transform: uppercase;
+margin-bottom: 16px;   
+}
+
+&__title{
+line-height: 1.4;
+margin-bottom: 24px;
+
+@include mq(medium) {
+    font-size: 48px;
+    line-height: 1.2;
+    }
+
+& span {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    & span::before {
+        @extend %main-pseudostyle;
+        background-image: url(../assets/imgs/chronikdecor.jpg);
+
+        @include mq(medium) {
+            width: 180px;
+            height: 58px;
+            background-image: url(../assets/imgs/chronikdesc.jpg);
+            }
+    }
+}
+
+
+
+&__description {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: $main-mob-margin;
+
+    
+    @include mq(medium) {
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+         }
+
+                  @include mq(large) {
+                  margin-bottom: 80px;
+                  }
+    
+}
+
+&__list{
+margin-bottom: 24px;
+
+@include mq(medium) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+    }
+
+         @include mq(large) {
+             flex-wrap: nowrap;
+            gap: 32px;
+         }
+
+& li{
+text-align: initial;
+@include mq(medium) {
+     max-width: 300px;
+    }
+
+        @include mq(large) {
+            flex-wrap: nowrap;
+            max-width: 100%;
+            width: 100%;
+                 }
+}
+
+& li:not(:last-child){
+margin-bottom: 32px;    
+}
+
+& li picture{
+@include mq(large) {
+    width: 100%;
+    }
+}
+
+& li img{
+border-radius: $mob-img-radius;
+margin-bottom: 24px;
+width: inherit;    
+}
+
+& li > h3{
+margin-top: 16px;
+margin-bottom: 24px;
+line-height: line-height(24,33.6);
+font-size: 24px;
+
+}
+
+& li > button{
+display: flex;   
+gap: 8px; 
+background-color: initial;
+border: none;
+font-size: 14px;
+line-height: line-height(14,21);
+
+
+&::after{
+content: url(../assets/imgs/iconChevronRight.svg);    
+}
+}
+
+}
+
+&__btn{
+padding: $mobile-btn-padding;
+border-radius: 42px;
+background-color: $main-bg-color; 
+border: 1px $aditional-bg-color  solid;
+}
+
+
+ @each $i, $bg in $decorchronicbg {
+& li:nth-child(#{$i}) &__imgdecor{
+background-color: $bg;
+position: relative;
+font-family: $aditional-title-style;
+line-height: line-height(14, 21);
+font-size: 14px;
+padding: 4px 8px;
+border-radius: 8px;
+    
+
+&::after{
+position: absolute;
+left: calc(100% + 16px);
+text-wrap: nowrap;
+top: 50%;
+translate: 0 -50%;
+line-height: 1.2;
+font-family: $main-content-style;
+
+@if $i == '1'{   
+content: '#{minute-content(7)}';    
+}
+@else if $i == '2' {
+    content: '#{minute-content(5)}';
+}
+
+@else if $i == '3' {
+    content: '#{minute-content(10)}';
+}
+@else{
+ @error 'content does not exist';   
+}
+}
+}
+}
+
+
+
+}

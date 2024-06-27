@@ -1,0 +1,34 @@
+// bg-color
+$main-bg-color: #ffffff;
+$aditional-bg-color:#1d1e1c;
+$decor-color-green: #d3f985;
+$decor-color-blue: #a6e8f6;
+$decor-color-pink: #fcbedc;
+$decor-color-persik: #fbc899;
+$decor-color-grey:#f1f1f1;
+$disable-color: #8e8f8d;
+
+// font-color
+$main-content-color: #1d1e1c;
+$aditional-content-color: #ffffff;
+
+// font-style
+$main-content-style: General-Sans, sans-serif;
+$main-title-style: Neue, sans-serif;
+$aditional-title-style: General-Sans-semibold, sans-serif;
+
+// geometry
+$mobile-btn-padding: 12px 24px;
+$main-mob-margin: 40px;
+$mob-img-radius: 24px;
+$main-mob-padding: 128px;
+$main-desktop-padding: 192px;
+
+// special 
+$partnerwidths: ('1': '152px','2':'145px','3':'138px','4':'154px','5':'132px');
+$decorballmotivcolor: ('1':$decor-color-green,'2':$decor-color-blue,'3':$decor-color-pink,'4':$decor-color-persik);
+$decorchronicbg: (
+    '1':$decor-color-blue,
+    '2':$decor-color-pink,
+    '3':$decor-color-green
+);

@@ -1,0 +1,83 @@
+@use '../abstracts' as *;
+
+.virtual{
+padding-bottom: $main-mob-padding;
+text-align: center;
+
+@include mq(large) {
+    padding-bottom: 224px;
+    }
+
+&__caption{
+@extend %caption-typografy;
+}
+
+&__title{
+@extend %main-titlestyle;
+margin-bottom: 24px;
+
+@include mq(medium) {
+    gap: 12px;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    }
+
+span{
+position: relative;
+display: flex;
+flex-direction: row-reverse;
+gap: 8px;
+}
+}
+
+&__title span::after{
+@extend %main-pseudostyle;
+background-image: url(../assets/imgs/exploredecorimg.jpg);
+
+@include mq(medium) {
+    width: 180px;
+    height: 58px;
+    background-image: url(../assets/imgs/virtualdecorimgdesc.jpg);
+    }
+}
+
+&__description{
+font-size: 14px;
+line-height: 1.8;
+margin-bottom: $main-mob-margin;
+
+@include mq(large) {
+    text-wrap: balance;
+    }
+}
+
+&__btn{
+padding: $mobile-btn-padding;
+border: 1px solid $aditional-bg-color;
+background-color: $main-bg-color;
+border-radius: 42px; 
+margin-bottom: $main-mob-margin;
+font-family: $aditional-title-style;
+font-weight: 600;
+line-height: 1.5;
+
+@include mq(large) {
+    margin-bottom: 80px;
+    }
+}
+
+&__iframeWrapper iframe{
+display: block;
+width: 100%;
+min-height: 320px;
+border-radius: 24px;
+background-color: rgba(0, 0, 0, 0.2);
+border: none;
+
+@include mq(large) {
+    aspect-ratio: 2;
+    }
+}
+
+}

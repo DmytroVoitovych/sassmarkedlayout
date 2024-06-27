@@ -1,0 +1,175 @@
+@use '../abstracts' as *;
+
+footer{
+
+.footerWraper{
+background-color: $aditional-bg-color;
+padding: 48px;
+border-radius: 24px;
+
+@include mq(large) {
+    display: flex;
+    
+    }
+
+@include mq(medium){
+& div{
+        display: inline-grid;
+            width: 32.9%;
+         margin-bottom: initial;   
+}    
+}
+
+@include mq(large) {
+    & div {
+        display: initial;
+        width: initial;
+    }
+}
+
+& div:not(:last-child) {
+        margin-bottom: 24px;
+
+        @include mq(medium) {
+                margin-bottom: initial;
+               
+            }
+
+        @include mq(large) {
+            margin-bottom: initial;
+            margin-right: auto;        
+            }
+    }
+}
+
+
+
+.footerList {
+    color: $aditional-content-color;
+    text-align: center;
+    font-size: 14px;
+    line-height: line-height(14, 25.2);
+
+    @include mq(large) {
+        text-align: left;
+        }
+}
+}
+
+
+.footerForm{
+margin-bottom: $main-mob-margin;
+text-align: center;
+
+@include mq(large){
+margin-right: 128px;
+margin-bottom: initial;  
+text-align: left;  
+}
+
+&__title{
+font-size: 24px;
+font-family: $aditional-title-style;
+color: $aditional-content-color;
+margin-bottom: 32px;    
+}
+
+&__caption{
+font-size: 14px;
+line-height: line-height(14,25.2);
+color: $aditional-content-color;  
+margin-bottom: 24px;  
+}
+
+form{
+
+@include mq(large) {
+        display: flex;
+        align-items: center;
+    }
+
+#subscribtionInput{
+padding: 12px;
+margin-bottom: 16px;    
+width: 100%;
+border: none;
+border-bottom: 1px solid $main-bg-color;
+background-color: unset;
+caret-color: $aditional-content-color;
+color: $aditional-content-color;
+
+
+&::placeholder{
+color: $aditional-content-color; 
+font-family: $main-content-style;
+font-size: 14px;
+line-height: line-height(14, 21);
+}
+}
+
+& input[type="submit"]{
+padding: $mobile-btn-padding;
+font-family: $aditional-title-style;
+font-size: 14px;
+line-height: line-height(14, 21);
+border-radius: 42px;
+margin-bottom: 24px;
+}
+    
+}
+
+&__description{
+font-size: 14px;
+line-height: line-height(14, 25.2);
+color: $aditional-content-color;
+
+@include mq(medium) {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+@include mq(large) {
+    margin: initial;
+    }
+
+}
+
+}
+
+
+.footerCaption{
+font-size: 12px;
+font-family: $aditional-title-style;
+line-height: line-height(12,18);
+text-transform: uppercase;
+color: $aditional-content-color;
+text-align: center;
+margin-bottom: 8px;
+}
+
+
+.footerAdition{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+padding: 32px 0;
+font-size: 14px;
+line-height: 1.8;
+
+@include mq(large) {
+    flex-direction: initial;
+    justify-content: space-between;
+    }
+
+
+&__list{
+display: flex; 
+gap: 24px;
+justify-content: space-between;   
+
+& a{
+text-decoration: underline;    
+}
+}
+}

@@ -1,0 +1,10 @@
+
+
+@function line-height($size,$height){
+ @return calc($height / $size );
+}
+
+
+@function minute-content($minute) {
+    @return $minute min read;
+}

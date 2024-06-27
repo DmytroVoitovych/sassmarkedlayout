@@ -1,0 +1,222 @@
+@use '../abstracts' as *;
+@use 'sass:color';
+
+header{
+    padding-top: 13.5px;
+    @extend %flex-center;
+   
+    & .logo{
+      font-family: $main-title-style;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 1.2;
+
+      @include mq(medium) {
+        font-size: 24px;
+      
+        }
+    }
+
+}
+
+.headerBurger {
+border-radius: 42px;
+border: solid 1px $aditional-bg-color;
+background-color: $aditional-bg-color;
+padding: 13.5px 18px;
+
+& .burgerStick{
+width: 24px;
+height: 1.4px;    
+background-color: $main-bg-color;
+border-radius: 1px;
+}
+
+& .burgerStick:not(:last-child){
+ margin-bottom: 6px;   
+}
+
+@include mq(medium) {
+display: none;
+
+}
+
+}
+
+#headerMenu{
+margin: 0;
+z-index: -18;
+margin-top: 96px;
+padding: 0;
+width: 100%;
+height: calc(100% - 96px);
+border: none;
+background-color: $aditional-bg-color;
+
+.navHeaderWraper{
+height: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+@include mq(medium) {
+flex-direction: initial;
+align-items: center;
+gap: 48px;
+  }
+}
+
+& .navHeaderWraper > nav{
+ padding-left: 20px;  
+ 
+@include mq(medium) {
+    padding-left:  initial;
+
+  }
+}
+
+
+@include mq(medium) {
+  all: initial;
+
+}
+
+}
+
+.headerLinkList{
+@include mq(medium) {
+  display: flex;
+ }
+
+& li{
+font-family: Neue,sans-serif;    
+font-size: 48px;
+line-height: 1.2;
+color: $aditional-content-color;    
+
+@include mq(medium) {
+  font-family: $main-content-style;
+  color: $main-content-color;
+  font-size: 14px;
+  line-height: line-height(14,25.2);
+  }
+
+}
+
+& li:not(:last-child){
+margin-bottom: 32px;
+
+@include mq(medium) {
+  margin-bottom: initial;
+  margin-right: 48px;
+  }
+}    
+}
+
+.headerRegisterList{
+justify-self: right;
+align-self: end;
+padding-bottom: 24px;
+display: flex;
+flex-direction: row-reverse;
+gap: 24px;
+padding-right: 20px;
+
+@include mq(medium) {
+  padding: initial;
+  flex-direction: row;
+  }
+
+
+& button{
+font-weight: 600;  
+padding: 12px 24px;  
+font-size: 14px;
+line-height: 1.5;
+border-radius: 42px;
+border: solid 1px $aditional-bg-color;
+cursor: pointer;
+
+@include mq(medium){
+font-family: $aditional-title-style;
+color: $main-content-color;
+background-color: $main-bg-color;
+}
+
+}
+
+& li:last-child button{
+background-color: $aditional-bg-color;    
+color: $aditional-content-color;
+}
+}
+
+body:has([popover]:popover-open){
+ background-color: $aditional-bg-color;
+ overflow-y: hidden;
+
+ & header{
+  position: sticky;
+  top: 0;
+ }
+ 
+ & .logo{
+   color: $aditional-content-color; 
+   font-size: 26px;
+ }
+
+  & .headerBurger{
+   border-radius: 0; 
+   border: none;
+   padding-right: 20px;
+  }
+
+  & .headerBurger div {
+    margin: 0;
+    rotate: -45deg;
+    width: 32.54px;
+  }
+
+ & .headerBurger div:last-child {
+     rotate: 45deg;
+ }
+ 
+ & .headerBurger div:nth-child(2){
+  display: none;
+ }
+}
+
+
+/// animation mobile menu
+
+ [popover]:popover-open {  //  стан при появі
+     opacity: 1;
+     transform: translateY(0vh);
+     transition: transform .5s, opacity .5s, display .5s, overlay .5s;
+ }
+
+@starting-style {  // початковий стан перед появою
+    [popover]:popover-open {
+        opacity: 0;
+        transform: translateY(100vh);
+        }
+}
+
+[popover]:not(:popover-open) {  // стан при  виході
+   
+opacity: 0;
+transform: translateY(100vh);
+transition: transform .5s, opacity .5s,overlay 0.5s allow-discrete,
+display 0.5s allow-discrete;
+
+@include mq(medium) {
+  all: initial;  
+
+  }
+    
+}
+
+
+  
+
+ 

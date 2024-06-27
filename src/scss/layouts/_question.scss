@@ -1,0 +1,107 @@
+@use '../abstracts/' as *;
+
+.question{
+text-align: center;
+padding-bottom: $main-mob-padding; 
+
+@include mq(medium) {
+    display: grid;
+    grid-template-rows: 1fr min-content min-content;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    column-gap: 32px;
+    }
+
+        @include mq(large) {
+        padding-bottom: 225px;
+        }
+    
+
+&__list {
+
+@include mq(medium) {
+    grid-area: 3;
+    grid-row: 5 / 2;    
+    }
+
+& li:not(:last-child){
+margin-bottom: 20px;    
+}    
+
+& li::after{
+content: '';
+display: block;
+height: 1px;
+width: 136px;
+background-color: $aditional-bg-color;    
+}
+}
+
+&__caption{
+@extend %caption-typografy;
+
+@include mq(medium) {
+        text-align: left;
+    }
+}
+
+&__title{
+margin-bottom: 24px;
+line-height: 1.4;
+
+@include mq(medium) {
+    text-align: left;
+    }
+
+@include mq(large) {
+    font-size: 48px;
+    line-height: 1.2;
+    }
+}
+
+&__description{
+font-size: 14px;
+line-height: 1.8;
+margin-bottom: 36px;
+
+@include mq(medium) {
+        text-align: left;
+        margin-bottom: initial;
+    }
+}
+
+& details{
+padding-bottom: 20px;
+
+ & summary::after {
+        content: url(../assets/imgs/CaretCircleDown.svg);
+        rotate: 180deg;
+    }
+
+    &[open] summary::after {
+        content: url(../assets/imgs/CaretCircleDown.svg);
+        rotate: 0deg;
+    }
+}
+
+& summary{
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;    
+font-family: $aditional-title-style;
+font-size: 14px;
+font-weight: 600;
+text-align: left;
+margin-bottom: 16px;
+
+}
+
+& .summaryDescription{
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: normal;
+text-align: left;
+}
+
+}

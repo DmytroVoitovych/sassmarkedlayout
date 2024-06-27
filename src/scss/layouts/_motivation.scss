@@ -1,0 +1,120 @@
+@use '../abstracts' as *;
+
+.motivation{
+text-align: center;
+padding-bottom: $main-mob-padding;   
+
+@include mq(large) {
+        padding-bottom: 224px;
+    }
+
+&__title{
+@extend %main-titlestyle;
+margin-bottom: 46px;
+
+@include mq(medium) {
+    flex-flow: initial;
+    justify-content: center;
+    gap: 16px;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 80px;
+    }
+
+span{
+position: relative;
+display: flex;
+gap: 8px; 
+
+@include mq(medium) {
+    gap: 16px;
+    align-items: center;
+    }
+}
+}    
+
+&__title span::after{
+@extend %main-pseudostyle;
+background-image: url(../assets/imgs/motivdecorimg.jpg);
+
+@include mq(medium) {
+    background-image: url(../assets/imgs/motivdecorimgdesk.jpg);
+    width: 180px;
+    height: 58px;
+    }
+}
+
+&__list{
+display: flex;
+flex-direction: column;
+gap: 32px;  
+
+
+@include mq(medium) {
+    flex-direction: initial;
+      }
+
+        @include mq(large) {
+            gap: 48px;
+        }
+
+
+& li{
+position: relative;
+}
+
+@for $i from 1 through 3 {
+       & li:nth-child(#{$i})::before {
+        content: '';
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+        background-image: url('../assets/imgs/motivdecor#{$i}.svg'); 
+
+                 @include mq(large) {
+                 margin-bottom: 24px;
+                 }
+        
+        }
+    }
+
+    @each $i, $bg in $decorballmotivcolor{
+& li:nth-child(#{$i})::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: $bg;
+    top: 12px;
+    left: 55%;
+    z-index: -1;
+
+    @include mq(medium) {
+        left: 47%;
+        }
+    }
+    }
+}
+
+
+
+
+&__list h3{
+position: relative;    
+font-size: 16px;
+line-height: 1.4;
+margin-bottom: 16px;
+
+@include mq(large) {
+    font-size: 24px;
+    }
+}
+
+&__list p{
+font-size: 14px;
+line-height: 1.8;
+}
+
+}

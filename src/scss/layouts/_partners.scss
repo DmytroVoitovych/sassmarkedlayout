@@ -1,0 +1,70 @@
+@use '../abstracts' as *;
+
+.partners{
+ padding-bottom: 112px; 
+ text-align: center;
+ overflow: hidden;
+
+@include mq(large) {
+  padding-bottom: $main-desktop-padding;
+  }
+
+
+ &__wraper{
+ display: flex; 
+
+@include mq(large) {
+    margin: 0 auto;
+    max-width: 817px;
+    width: 100%;
+    overflow: hidden;
+  }
+ }
+ 
+ & h2{
+font-family: $aditional-title-style;
+font-size: 16px;
+font-weight: 600;
+line-height: 1.5;
+text-transform: uppercase;
+margin-bottom: 24px;
+ }
+
+ &__list{
+display: flex;
+align-items: center;
+gap: 24px;
+animation: infinity 10s linear infinite;
+
+@include mq(large) {
+    gap: 48px;
+  }
+
+ @each $i, $size in $partnerwidths {
+    
+   & li:nth-child(#{$i}) svg{
+     width: #{$size};
+       }
+    }
+ }
+
+ & svg{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  
+}
+
+
+// animation
+@keyframes infinity {  // infinity scrolling
+  from {
+      translate:0;
+    }
+  
+    to {
+      translate:-100%;
+    }
+}

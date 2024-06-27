@@ -1,0 +1,65 @@
+@use '../abstracts' as *;
+
+
+.join{
+text-align: center;
+padding-bottom: $main-mob-padding;
+
+@include mq(large) {
+    padding-bottom: 224px;
+    }
+
+&__title {
+font-size:48px;
+line-height: 1.2;
+text-wrap: pretty;
+margin-bottom: 24px;
+
+@include mq(large) {
+    font-size: 96px;
+    line-height: 1;
+    }
+
+& span{
+position: relative;
+display: flex;
+gap: 16px;
+justify-content: center;
+
+@include mq(medium) {
+    display: inline-flex;
+    margin-right: 16px;
+        }
+                @include mq(large) {
+                margin-right: 24px;
+                gap: 24px;
+                }
+}
+
+& span::after{
+content: '';
+display: inline-block;
+background-image: url('../assets/imgs/seize.jpg');
+width: 160px;
+height: 58px;
+border-radius: 48px;
+
+@include mq(large) {
+    background-image: url('../assets/imgs/seizedesc.jpg');
+    width: 240px;
+    height: 96px;
+    }
+}
+}
+
+&__description{
+font-size: 14px;
+line-height: 1.8;
+margin-bottom: $main-mob-margin;
+
+@include mq(medium) {
+    text-wrap: balance; 
+    }
+}
+
+}

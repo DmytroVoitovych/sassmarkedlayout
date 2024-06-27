@@ -1,0 +1,141 @@
+@use '../abstracts' as *;
+
+$img-height:640px;
+
+.statistic{
+text-align: center;
+padding-bottom: $main-mob-padding; 
+
+@include mq(medium) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    place-items: center;
+    text-align: left;
+    column-gap: 80px;
+    grid-template-rows: 1fr min-content min-content;
+    }
+
+
+
+&__caption{
+@extend %caption-typografy;
+
+@include mq(medium) {
+    justify-self: left;
+    align-self: self-end;
+    }
+}
+
+&__title{
+line-height: 1.4;
+margin-bottom: 32px;    
+
+@include mq(medium) {
+    text-align: left;
+    align-self: self-end;
+    margin-bottom: 40px;
+
+    }
+
+        @include mq(large) {
+        font-size: 48px;
+        line-height: 1.2;
+        }
+}
+
+&__list{
+display: grid;
+grid-template-columns: 1fr 1fr;
+row-gap: 24px;
+margin-bottom: $main-mob-margin;
+
+@include mq(medium) {
+    margin-bottom: initial;
+    justify-self: left;
+    align-self: self-start;
+    }
+
+        @include mq(large) {
+        row-gap: 32px;
+        padding-bottom: 110px;
+        }
+
+&>li{
+position: relative;    
+}
+
+&>li>span {
+margin-bottom: 8px;
+display: block;
+font-family: $main-title-style;
+font-size: 48px;
+line-height: 1.2;
+
+    }
+
+&>li>p{
+font-size: 14px;
+line-height: 1.8;
+} 
+
+@each $i, $bg in $decorballmotivcolor {
+    & li:nth-child(#{$i})::after {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: $bg;
+        z-index: -1;
+
+        @if $i == '1'{
+        top: 30px;
+        left: 44px;
+        } 
+        @else if $i == '2'{
+        top: 19px;
+        left: 58px;
+        }
+        @else if $i == '3' {
+        top: 21px;
+        left: 71px;
+        }
+        @else if $i == '4' {
+        top: 22px;
+        left: 74px;
+        }
+        @else{
+        @error "Unknown list child #{$i}.";
+        }
+
+    
+}
+}
+}
+
+ & > picture{
+ @extend %mob-picture;
+
+@include mq(medium) {
+    grid-row: 1 / 4;
+    object-fit: cover;
+    max-height: $img-height;
+    height: 100%;
+
+    & > img{
+    all: inherit;
+    }
+    }
+
+        @include mq(large) {
+        min-height: $img-height;
+        height: 100%;
+    
+            &>img {
+                all: inherit;
+            }
+        }
+ }
+
+}
